@@ -1,0 +1,25 @@
+.btn {
+  background-color: rgba(165, 164, 164, 0.877);
+  margin: 3px;
+  width: 45px;
+  height: 45px;
+  padding: 0.55rem 1rem;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.calculator{
+  width: 250px;
+  height: 265px;
+  border: outset darkgray 3px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+#calcInput {
+  width: 74%;
+}
+
+.historySpan {
+  font-size: 10px;
+}

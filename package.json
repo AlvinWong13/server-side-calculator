@@ -1,0 +1,25 @@
+{
+  "name": "server-side-calculator",
+  "description": "## Calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvinWong13/server-side-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlvinWong13/server-side-calculator/issues"
+  },
+  "homepage": "https://github.com/AlvinWong13/server-side-calculator#readme"
+}

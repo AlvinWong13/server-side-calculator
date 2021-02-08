@@ -10,21 +10,20 @@ app.listen(PORT, () => {
   console.log('Server is listening on port', PORT);
 })
 
-let equation = {};
 let equationHistory = [];
+let equation = {};
 
 // get data and start to calculate
 app.post('/equate', (req, res) =>{
   equation = req.body;
   console.log(equation);
   solveEquation(equation);
-  res.sendStatus(201);
+  res.sendStatus(200);
 })
 
 // send history
 app.get('/equate', (req, res) => {
   console.log('History sent');
-  equationHistory = [];
   res.send(equationHistory);
 })
 
@@ -42,13 +41,13 @@ function solveEquation(data) {
   let secondNum = +(data.secondNumber);
   let mathOperation = data.operator;
   let answer = 0;
-  if(mathOperator === '+') {
+  if(mathOperation === '+') {
     answer = firstNum + secondNum;
-  } else if (mathOperator === '-') {
+  } else if (mathOperation === '-') {
     answer = firstNum = secondNum;
-  } else if (mathOperator === '*') {
+  } else if (mathOperation === '*') {
     answer = firstNum * secondNum;
-  } else if (mathOperator === '/') {
+  } else if (mathOperation === '/') {
     answer = firstNum / secondNum;
   }
   console.log(answer);
