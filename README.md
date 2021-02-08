@@ -8,6 +8,11 @@ The server is able to comprehend addition, subtraction, multiplication, and divi
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+## Built with
+- HTML,CSS,JS,jQuery,Node.js
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+## Acknowledgement
+Thanks to Prime Digital Academy who equipped and helped me to make this application a reality.
+
+## Support
+If you have suggestions or issues, please email me at wong.alvin13@gmail.com
